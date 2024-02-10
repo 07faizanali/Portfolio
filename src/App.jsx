@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import ContactMe from './components/Contact Me/ContactMe';
 import Footer from './components/Footer/Footer';
+import Project from './components/Project/Project';
 
 
 function App() {
@@ -14,8 +15,10 @@ function App() {
       <Navbar/>
       <div className='container'>
         <Hero/>
-        <Skills/>
         <WorkExperience />
+        <Skills/>
+        
+        <Project/>
         <ContactMe />
        </div>
        <Footer />

@@ -1,4 +1,4 @@
-.work-experience-card{
+.work-project-card{
     background: #130f2a;
     border-radius:0.65rem ;
     border: 1.5px solid #6751b9;
@@ -7,7 +7,7 @@
     
 }
 
-.work-experience-card h6{
+.work-project-card h6{
     font-size: 1.05rem;
     font-size: 500;
     margin-bottom: 0.6rem;
@@ -23,15 +23,15 @@
     margin-bottom: 1.3rem;
 }
 
-.work-experience-card ul li {
+.work-project-card ul li {
     list-style: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 0.6rem;
     position: relative;
 }
 
-.work-experience-card ul li::after{
+.work-project-card ul li::after{
     content: " ";
     width: 0.5rem;
     height: 0.5rem;
@@ -43,15 +43,15 @@
 }
 
 @media (max-width: 769px){
-    .work-experience-card{
+    .work-project-card{
         margin: 0;
     }
 
-    .work-experience-card h6{
+    .work-project-card h6{
         font-size: 0.95rem;
     }
 
-    .work-experience-card ul li{
+    .work-project-card ul li{
         font-size: 0.75rem;
     }
 }

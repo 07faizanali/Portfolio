@@ -13,10 +13,9 @@ const Skills = () => {
   }
   return (
 
-    <section className='skills-container'>
-        <h5>Technical Proficiency</h5>
-    
-    <div className='skills-content'>
+    <section  className='skills-container'>
+        <h5 id='skills'>Technical Proficiency</h5>
+        <div className='skills-content'>
         <div className='skills'> 
         {SKILLS.map((item) =>(
             <SkillCard

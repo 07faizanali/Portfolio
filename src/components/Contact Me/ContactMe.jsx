@@ -6,8 +6,8 @@ import ContactForm from './ContactForm/ContactForm'
 const ContactMe = () => {
   return (
 
-    <section className='contact-container'>
-      <h5>ContactMe</h5>
+    <section  className='contact-container'>
+      <h5 id='contact'>Contact Me</h5>
 
       <div className='contact-content'>
         <div style={{ flex:1 }}>
@@ -16,8 +16,8 @@ const ContactMe = () => {
             text="mohd.faizanali.m.z@gmail.com"
             />
             <ContactInfoCard
-            iconUrl="./photos/github.png"
-            text="https://github.com/07faizanali"
+            iconUrl="./photos/icons8-github-64.png"
+           text="https://github.com/07faizanali"
             />
         </div>
         <div style={{ flex:1 }}>

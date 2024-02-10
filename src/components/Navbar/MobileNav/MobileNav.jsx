@@ -5,7 +5,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
     <>
     <div
-        className={'mobile-menu ${isOpen ? "active" : ""}'}
+        className={`mobile-menu ${isOpen ? "active" : ""}`}
         onClick={toggleMenu}
     >
         <div className='mobile-menu-container'>
@@ -15,16 +15,16 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <a className='menu-item'>Home</a>
           </li>
           <li>
-            <a className='menu-item'>Skills</a>
+            <a href='#skills' className='menu-item'>Skills</a>
           </li>
           <li>
-            <a className='menu-item'>Projects</a>
+            <a href='project' className='menu-item'>Projects</a>
           </li>
           <li>
-            <a className='menu-item'>Work Experience </a>
+            <a href='#experience' className='menu-item'>Work Experience </a>
           </li>
           <li>
-            <a className='menu-item'>Contact Me</a>
+            <a href='#contact' className='menu-item'>Contact Me</a>
           </li>
           <button className='contact-btn' onClick={() => {}}>
             Hire Me

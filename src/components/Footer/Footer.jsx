@@ -1,9 +1,72 @@
 import React from 'react'
 import './Footer.css'
+import TelegramIcon from '@mui/icons-material/Telegram'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import GithubIcon from '@mui/icons-material/GitHub'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import PhoneIcon from '@mui/icons-material/Phone'
+import EmailIcon from '@mui/icons-material/Email'
+import LocationIcon from '@mui/icons-material/LocationOn'
+
 
 const Footer = () => {
   return (
-    <div className='footer'>@ 2024 portfolio</div>
+    <>
+    <section className="footer">
+      <div className='Quick-Links'>
+
+      <h5>Quicks Links</h5>
+      <ul>
+      <li>
+        <a href='#skills'>Skills</a>
+      </li>
+      <li>
+      <a href='#experience'>Work Experience</a>
+      </li>
+      <li>
+      <a href='#project'>Project</a>
+      </li>
+      <li>
+      <a href='#aboutme'>About Me</a>
+      </li>
+      </ul>
+      </div>
+<div className='Contact'>
+      <h5>Contact Me</h5>
+    <PhoneIcon/><p>Mobile no: +91 xxxxxxxxxx</p>
+     <EmailIcon/> <p>Email: mohd.faizanali.m.z@gmail.com</p>
+      <LocationIcon/> <p>Location: Delhi, India  </p>
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13999.127880296084!2d77.28292850000004!3d28.69616800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfc759be98409%3A0xb6d651be78bf3035!2sKardampuri%20Extn%2C%20Kardam%20Puri%2C%20Babarpur%2C%20Delhi%2C%20110032!5e0!3m2!1sen!2sin!4v1707130456485!5m2!1sen!2sin"
+      width="200" height="200"  allowfullscreen="" loading="lazy" >
+      </iframe>
+       </div>
+
+       <div className='social-media'>
+        
+        <h5>Social Media</h5>
+        <ul>
+        <li>
+         <TelegramIcon/> <a href='#'>Telegram</a>
+        </li>
+        <li>
+        <InstagramIcon/><a href='#'>Instagram</a>
+        </li>
+        <li>
+        <LinkedInIcon/><a href='#'>LinkedIn</a>
+        </li>
+        <li>
+        <GithubIcon/><a href='#'>GitHub</a>
+        </li>
+        </ul>
+        </div>
+       
+      </section>
+         
+    <div className='Last-footer'>
+        <p>Design By Faizan Ali</p>
+    </div>
+    </>
   )
 }
 

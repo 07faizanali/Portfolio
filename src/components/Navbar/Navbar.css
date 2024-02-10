@@ -1,5 +1,9 @@
+
+*{
+    scroll-behavior: smooth;
+}
 .nav-wrapper{
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(110,120,122,1);
     padding: 0.5rem 0;
     top: 0;
     z-index: 30;
@@ -22,6 +26,11 @@
    
 }
 
+.nav-content h2{
+    font-family: cursive;
+    margin-right: 20rem;
+}
+
 .nav-content ul{
     display: flex;
     align-items: center;
@@ -29,12 +38,14 @@
     list-style: none;
 }
 
+
+
 .nav-content li{
     margin: 0 1.5rem;
 }
 
 .menu-item{
-    
+    font-family: cursive;
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
