@@ -15,7 +15,6 @@ const WorkExperience = () => {
               <ExperienceCard key={item.title} details={item} />
           ))}
           
-        
         </div>
     </section>
   )

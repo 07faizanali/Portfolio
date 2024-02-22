@@ -24,7 +24,7 @@ const Footer = () => {
       <a href='#experience'>Work Experience</a>
       </li>
       <li>
-      <a href='#project'>Project</a>
+      <a href='#projects'>Project</a>
       </li>
       <li>
       <a href='#aboutme'>About Me</a>
@@ -47,16 +47,16 @@ const Footer = () => {
         <h5>Social Media</h5>
         <ul>
         <li>
-         <TelegramIcon/> <a href='#'>Telegram</a>
+         <TelegramIcon/> <a href='https://www.t.me/@Faizanali098' target='_blank'>Telegram</a>
         </li>
         <li>
-        <InstagramIcon/><a href='#'>Instagram</a>
+        <InstagramIcon/><a href='https://www.instagram.com/ali_._faizan' target='_blank'>Instagram</a>
         </li>
         <li>
-        <LinkedInIcon/><a href='#'>LinkedIn</a>
+        <LinkedInIcon/><a href='https://www.linkedin.com/in//07faizanali' target='_blank'>LinkedIn</a>
         </li>
         <li>
-        <GithubIcon/><a href='#'>GitHub</a>
+        <GithubIcon/><a href='https://www.github.com/07faizanali' target='_blank'>GitHub</a>
         </li>
         </ul>
         </div>

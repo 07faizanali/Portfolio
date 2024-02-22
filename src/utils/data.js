@@ -6,7 +6,8 @@ export const SKILLS = [
     skills: [
         {skill: "HTML5", percentage: "80%"},
         {skill: "CSS", percentage: "60%"},
-        {skill: "JavaScript", percentage: "70%"},
+        {skill: "Bootstrap", percentage: "50%"},
+        {skill: "JavaScript", percentage: "60%"},
         {skill: "React.js", percentage: "80%"},
     ],
  },
@@ -17,8 +18,12 @@ export const SKILLS = [
 
     skills: [
        
-        {skill: "Node.js", percentage: "70%"},
-        {skill: "Express.js", percentage: "80%"},
+        {skill: "Node.js(Familiar)", percentage: "30%"},
+        {skill: "Express.js(Familiar)", percentage: "30%"},
+        {skill: "Java(Familiar)", percentage: "40%"},
+        {skill: "Python(Familiar)", percentage: "40%"},
+        {skill: "SQL", percentage: "70%"},
+        
     ],
  },
 
@@ -29,8 +34,10 @@ export const SKILLS = [
     skills: [
         {skill: "Git & Github", percentage: "80%"},
         {skill: "Visual Studio Code", percentage: "60%"},
+        {skill: "Netbean", percentage: "50%"},
+        {skill: "PyCharm", percentage: "50%"},
         {skill: "MySQL", percentage: "70%"},
-        {skill: "Ms Office", percentage: "80%"},
+        {skill: "Ms Office", percentage: "70%"},
     ],
  },
 
@@ -56,12 +63,22 @@ export const WORK_EXPERIENCE=[
         responsibilities:[ "Make a inventory of product.",
         "make a report of products",
         "Store data report in excel sheet",
-        "Store data report in excel sheet",
+        
         ],
     }
 ]
 
 export const PROJECTS=[
+    {
+        title:'Portfolio | Responsive Web Application | React Js',
+        date:' Feb | 2024',
+        responsibility:[
+        "Welcome to my portfolio website!. I developed a dynamic  Responsive web application Portfolio. With proficiency in web development. I bring creativity and technical expertise to every project I undertake. My portfolio showcases a range of projects, from dynamic websites to eye-catching branding campaigns, each highlighting my commitment to quality and attention to detail. I have honed my skills through hands-on projects. Explore my portfolio to learn more about my work and how I can help bring your ideas to life.",
+        "Technologies: Utilized React Js, CSS, JavaScript, and Bootstrap to create an appealing and responsive frontend.",
+        "This Portfolio is a Demo of my portfolio project.",
+        ],
+    },
+
     {
         title:'MEDICARE.COM | E-COMMERCE | PYTHON',
         date:'MCA | Dec | 2023',

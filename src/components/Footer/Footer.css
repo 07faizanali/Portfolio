@@ -6,7 +6,10 @@
 .Quick-Links{
   position: absolute;
   padding-left: 2rem;
-  
+}
+
+.Quick-Links a{
+  cursor: pointer;
 }
  
 .Contact {

@@ -1,33 +1,44 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './ContactForm.css'
-import emailjs from 'emailjs-com'
 
-const ContactForm = () => {
 
-  function sendEmail(e){
+const ContactForm = () => { 
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_dwfgjmb', 'template_fipiwkm', e.target, 'PtWUFLRrUlfwXiOZk').then(res=>{
-      console.log(res)
-    }).catch(err=> console.log(err))
-  }
+    emailjs
+      .sendForm('service_zwjt8z7', 'template_fipiwkm', form.current, {
+        publicKey: 'cdA3lcFmKwafRT3Bd',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          form.current.reset()
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+ 
   return (
 
 
     <div className='contact-form-content'>
-        <form onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
             <div className='name-container'>
-                <input type='text' name='name' placeholder='Full Name' />
-                <input type='text' name='subject' placeholder='Subject' />
+                <input type='text' name='name' placeholder='Your Name' />
             </div>
             <input type='email' name='user-email' placeholder='email@gmail.com' />
             <textarea type='text' name='message' placeholder='message' rows={5} />
-            <button>Send</button>
+            <button type='submit'>Send</button>
         </form>
     </div>
   )
 }
-
 
 
 export default ContactForm

@@ -15,20 +15,21 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <a className='menu-item'>Home</a>
           </li>
           <li>
+            <a href='#about' className='menu-item'>About Me</a>
+          </li>
+          <li>
             <a href='#skills' className='menu-item'>Skills</a>
           </li>
           <li>
-            <a href='project' className='menu-item'>Projects</a>
+            <a href='#projects' className='menu-item'>Projects</a>
           </li>
           <li>
             <a href='#experience' className='menu-item'>Work Experience </a>
           </li>
-          <li>
-            <a href='#contact' className='menu-item'>Contact Me</a>
-          </li>
-          <button className='contact-btn' onClick={() => {}}>
+        
+          <a href='#contact' className='contact-btn2' >
             Hire Me
-            </button>
+            </a>
         </ul>
         </div>
     </div>
