@@ -15,14 +15,16 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <a className='menu-item'>Home</a>
           </li>
           <li>
-            <a href='#about' className='menu-item'>About Me</a>
+            <a href='#aboutme' className='menu-item'>About Me</a>
           </li>
+          
           <li>
             <a href='#skills' className='menu-item'>Skills</a>
           </li>
           <li>
             <a href='#projects' className='menu-item'>Projects</a>
           </li>
+          
           <li>
             <a href='#experience' className='menu-item'>Work Experience </a>
           </li>

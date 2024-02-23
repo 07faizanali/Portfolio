@@ -103,6 +103,7 @@
 
 
 @media (max-width: 1025px) {
+    
     .hero-content h2{
         font-size: 3rem;
         line-height: 4rem;
@@ -113,13 +114,17 @@
         line-height: 1.6rem;
     }
 
+    .hero-img {
+        margin-left: 28rem;
+    }
+
     .hero-img > div > img {
-        width: 20rem;
+        width: 50%;
     }
 
     .tech-icon{
         width: 4rem;
-        height: 4rem;
+        height: 4rem;      
     }
 
     .tech-icon img {

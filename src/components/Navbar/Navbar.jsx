@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul>
           
           <li>
-            <a className='menu-item'>Home</a>
+            <a href='#aboutme' className='menu-item'>AboutMe</a>
           </li>
           <li>
             <a href='#skills' className='menu-item'>Skills</a>
@@ -32,9 +32,9 @@ const Navbar = () => {
           <li>
             <a href='#experience' className='menu-item'>Work Experience </a>
           </li>
-          <li>
-            <a href='#contact' className='menu-item'>Contact Me</a>
-          </li>
+          {/* <li>
+            <a href='#education' className='menu-item'>Qualification</a>
+          </li> */}
           <a href='#contact' className='contact-btn'>
             Hire Me
           </a>

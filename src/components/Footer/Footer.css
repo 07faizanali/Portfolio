@@ -1,6 +1,5 @@
 .footer {
     position: relative;
-   
    }
 
 .Quick-Links{
@@ -57,9 +56,12 @@
   }
   
 
-@media (max-width: 1024px){
+@media (max-width: 1025px){
     .social-media{
-    padding-left: 57rem;
+    padding-left: 60rem;
+  }
+  .Contact{
+    padding-left: 25rem;
   }
 }
 
@@ -70,7 +72,7 @@
   }
 
   .social-media{
-    padding-left: 41rem;
+    padding-left: 40rem;
   }
 }
 
@@ -88,6 +90,10 @@
   .social-media{
     margin-top: 11rem;
     padding-left: 0;
+  }
+
+  .Last-footer{
+    width: 27.6rem;
   }
    
 }

@@ -116,3 +116,33 @@ export const PROJECTS=[
     },
 
 ]
+
+export const QUALIFICATION=[
+    {
+        title:"Master's of Computer Application",
+        date:'June 2021- Present',
+        responsibilities:[ "INDIRA GANDHI NATIONAL OPEN UNIVERSITY, DELHI",        
+        ],
+    },
+
+    {
+        title:"Bachelor of Computer Application | SECOND DIVISION",
+        date:'June 2017- 2021',
+        responsibilities:[ "INDIRA GANDHI NATIONAL OPEN UNIVERSITY, DELHI",        
+        ],
+    },
+
+    {
+        title:"12TH Standard | FIRST DIVISION",
+        date:'June 2017',
+        responsibilities:[ "CENTRAL BOARD OF SECONDARY EDUCATION, DELHI",        
+        ],
+    },
+
+    {
+        title:"10TH Standard | SECOND DIVISION",
+        date:'June 2015',
+        responsibilities:[ "CENTRAL BOARD OF SECONDARY EDUCATION, DELHI",        
+        ],
+    },
+]

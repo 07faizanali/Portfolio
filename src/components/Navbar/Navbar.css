@@ -8,7 +8,7 @@
     top: 0;
     z-index: 30;
     position: sticky;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);    
 }
 
 .nav-content{
@@ -23,7 +23,6 @@
 .logo{
     height: 70px;
     width: 70px;
-   
 }
 
 .nav-content h2{
@@ -119,7 +118,9 @@
 }
 
 @media (max-width: 425px){
-   
+    .nav-wrapper{
+        width: 27.6rem;
+    }
     .menu-btn{
         display: block;
         position: fixed;
@@ -132,6 +133,7 @@
 }
 
 @media (max-width: 768px){
+   
     .menu-btn{
         display: block;
     }
@@ -141,12 +143,16 @@
     }
 }
 
+/* @media (max-width: 1024px){
+    .nav-wrapper{
+        width: 71rem;
+    }
+} */
 
     
 @media (max-width: 1440px){
     
     .nav-wrapper{
-        padding: 0 2rem;
-    
+        padding: 0 2rem;   
     }
 }
