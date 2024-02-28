@@ -11,9 +11,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         <div className='mobile-menu-container'>
         <img className='logo' src='./photos/resume.png' alt='' />
         <ul>
-          <li>
-            <a className='menu-item'>Home</a>
-          </li>
+          {/* <li>
+            <a href='' className='menu-item'>Home</a>
+          </li> */}
           <li>
             <a href='#aboutme' className='menu-item'>About Me</a>
           </li>

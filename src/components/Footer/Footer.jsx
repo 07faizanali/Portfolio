@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
 <div className='Contact'>
       <h5>Contact Me</h5>
-    <PhoneIcon/><p>Mobile no: +91 xxxxxxxxxx</p>
+    <PhoneIcon/><p>Mobile: +91 9990891895</p>
      <EmailIcon/> <p>Email: mohd.faizanali.m.z@gmail.com</p>
       <LocationIcon/> <p>Location: Delhi, India  </p>
       <iframe
