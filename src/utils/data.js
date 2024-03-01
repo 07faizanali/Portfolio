@@ -8,7 +8,7 @@ export const SKILLS = [
         {skill: "CSS", percentage: "60%"},
         {skill: "Bootstrap", percentage: "50%"},
         {skill: "JavaScript", percentage: "60%"},
-        {skill: "React.js", percentage: "80%"},
+        {skill: "React.js", percentage: "70%"},
     ],
  },
 
@@ -18,8 +18,8 @@ export const SKILLS = [
 
     skills: [
        
-        {skill: "Node.js(Familiar)", percentage: "30%"},
-        {skill: "Express.js(Familiar)", percentage: "30%"},
+        {skill: "Node.js(Familiar)", percentage: "20%"},
+        {skill: "Express.js(Familiar)", percentage: "20%"},
         {skill: "Java(Familiar)", percentage: "40%"},
         {skill: "Python(Familiar)", percentage: "40%"},
         {skill: "SQL", percentage: "70%"},
@@ -32,8 +32,8 @@ export const SKILLS = [
     icon: "./photos/tools.png",
 
     skills: [
-        {skill: "Git & Github", percentage: "80%"},
-        {skill: "Visual Studio Code", percentage: "60%"},
+        {skill: "Git & Github", percentage: "60%"},
+        {skill: "Visual Studio Code", percentage: "80%"},
         {skill: "Netbean", percentage: "50%"},
         {skill: "PyCharm", percentage: "50%"},
         {skill: "MySQL", percentage: "70%"},
@@ -46,10 +46,10 @@ export const SKILLS = [
     icon: "./photos/soft-skills.png",
 
     skills: [
-        {skill: "Problem Solving", percentage: "80%"},
-        {skill: "Collaboration", percentage: "60%"},
-        {skill: "Attention to Detail", percentage: "70%"},
-        {skill: "Working Hard", percentage: "80%"},
+        {skill: "Problem Solving", },
+        {skill: "Collaboration",},
+        {skill: "Attention to Detail",},
+        {skill: "Working Hard",},
     ],
  },
 

@@ -47,7 +47,7 @@ const Footer = () => {
         <h5>Social Media</h5>
         <ul>
         <li>
-         <TelegramIcon/> <a href='https://www.t.me/@Faizanali098' target='_blank'>Telegram</a>
+         <TelegramIcon/> <a href='https://www.t.me/Faizanali098' target='_blank'>Telegram</a>
         </li>
         <li>
         <InstagramIcon/><a href='https://www.instagram.com/ali_._faizan' target='_blank'>Instagram</a>
