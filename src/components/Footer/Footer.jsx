@@ -33,8 +33,8 @@ const Footer = () => {
       </div>
 <div className='Contact'>
       <h5>Contact Me</h5>
-    <PhoneIcon/><p>Mobile: +91 9990891895</p>
-     <EmailIcon/> <p>Email: mohd.faizanali.m.z@gmail.com</p>
+    <PhoneIcon/><a href='https://wa.me/9990891895' target='_blank'> +91-9990891895</a><br/>
+     <EmailIcon/> <a href='mailto:mohd.faizanali.m.z@gmail.com' target='_blank'> mohd.faizanali.m.z@gmail.com</a><br/>
       <LocationIcon/> <p>Location: Delhi, India  </p>
       <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13999.127880296084!2d77.28292850000004!3d28.69616800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfc759be98409%3A0xb6d651be78bf3035!2sKardampuri%20Extn%2C%20Kardam%20Puri%2C%20Babarpur%2C%20Delhi%2C%20110032!5e0!3m2!1sen!2sin!4v1707130456485!5m2!1sen!2sin"
