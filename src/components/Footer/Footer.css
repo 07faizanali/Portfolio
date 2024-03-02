@@ -1,5 +1,5 @@
 .footer {
-    position: relative;
+    position: relative;  
    }
 
 .Quick-Links{
@@ -7,14 +7,17 @@
   padding-left: 2rem;
 }
 
-.Quick-Links a{
+/* .Quick-Links > ul > li {
   cursor: pointer;
-}
+} */
  
 .Contact {
     padding-left: 30rem;
     
 }
+/* .Contact> a{
+  cursor: pointer;
+} */
 
 .Contact p{
   color: grey;
