@@ -88,8 +88,8 @@
 }
 
 .contact-btn:hover{
-    color: #a993fe;
-    background: black;
+    color: white;
+    background: linear-gradient(180deg, #c0bdce 0%, #3f5f49 100%);
     outline: 1.5px solid #668e9e;
 }
 
