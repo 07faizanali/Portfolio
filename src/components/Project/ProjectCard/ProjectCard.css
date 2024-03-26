@@ -1,10 +1,11 @@
 .work-project-card{
-    background: #130f2a;
+    background: #080b0c;
     border-radius:0.65rem ;
-    border: 1.5px solid #6751b9;
+    border: 1.5px solid #6bb7d4;
     padding: 1.5rem;
     margin:  3rem;
     height: 40rem;
+    text-align: justify;
     
 }
 
@@ -18,7 +19,7 @@
     display: inline-block;
     font-size: 0.7rem;
     font-weight: 400;
-    background: rgba(103, 81, 185, 0.5);
+    background: #6bb7d4;
     border-radius: 0.3rem;
     padding: 0.4rem 0.6rem;
     margin-bottom: 1.3rem;
@@ -30,13 +31,14 @@
     font-weight: 400;
     margin-bottom: 0.6rem;
     position: relative;
+    
 }
 
 .work-project-card ul li::after{
     content: " ";
     width: 0.5rem;
     height: 0.5rem;
-    background-color: #6751b9;
+    background-color: #6bb7d4;
     border-radius: 0.5rem;
     position: absolute;
     left: -1.3rem;

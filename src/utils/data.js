@@ -5,10 +5,10 @@ export const SKILLS = [
 
     skills: [
         {skill: "HTML5", percentage: "80%"},
-        {skill: "CSS", percentage: "60%"},
+        {skill: "CSS", percentage: "50%"},
         {skill: "Bootstrap", percentage: "50%"},
-        {skill: "JavaScript", percentage: "60%"},
-        {skill: "React.js", percentage: "70%"},
+        {skill: "JavaScript", percentage: "50%"},
+        {skill: "React.js", percentage: "60%"},
     ],
  },
 
@@ -20,7 +20,7 @@ export const SKILLS = [
        
         {skill: "Node.js(Familiar)", percentage: "20%"},
         {skill: "Express.js(Familiar)", percentage: "20%"},
-        {skill: "Java(Familiar)", percentage: "40%"},
+        {skill: "Java(Familiar)", percentage: "30%"},
         {skill: "Python(Familiar)", percentage: "40%"},
         {skill: "SQL", percentage: "70%"},
         
@@ -70,16 +70,16 @@ export const WORK_EXPERIENCE=[
 
 export const PROJECTS=[
     {
-        title:'Portfolio | Responsive Web Application | React Js',
-        date:' Feb | 2024',
+        title:'NEWS BLOG | Responsive Web Application | React Js | Bootstrap',
+        date:' March | 2024',
         responsibility:[
-        "Welcome to my portfolio website!. I developed a dynamic  Responsive web application Portfolio. With proficiency in web development. I bring creativity and technical expertise to every project I undertake. My portfolio showcases a range of projects, from dynamic websites to eye-catching branding campaigns, each highlighting my commitment to quality and attention to detail. I have honed my skills through hands-on projects. Explore my portfolio to learn more about my work and how I can help bring your ideas to life.",
-        "Technologies: Utilized React Js, CSS, JavaScript, and Bootstrap to create an appealing and responsive frontend.",
-        "This Portfolio is a Demo of my portfolio project.",
+        "NEWS BLOG is a platform where we see latest news in daily basis and I fetch News Api from NewsApi.org for this Project using react hook. Utilized React's state management to dynamically render news articles and updates in real-time, providing users with the latest information without the need for page reloads.",    
+        "Technologies: Utilized React Js, Bootstrap to create an appealing and responsive frontend.",
         ],
+        githubLink: 'https://github.com/07faizanali/NEWS-BLOG', 
     },
 
-    {
+    { 
         title:'MEDICARE.COM | E-COMMERCE | PYTHON',
         date:'MCA | Dec | 2023',
         responsibility:[
@@ -89,6 +89,7 @@ export const PROJECTS=[
         "Orders and Feedback: Implemented an order management system to track user purchases. Designed a feedback module for users to provide valuable insights.",
         "Technologies: Utilized HTML, CSS, JavaScript, and Bootstrap to create an appealing and responsive frontend. Leveraged Django framework and Python for the robust backend development. Employed MySQL database, utilizing the admin site panel for efficient data management.",
         ],
+        githubLink: 'https://github.com/07faizanali/Medicare',
     },
 
     {
@@ -101,6 +102,7 @@ export const PROJECTS=[
         "Backend Development: Utilized Java (Jsp/Servlet) for the backend code and enabling efficient data processing and interaction with the MySQL database.",
         "Admin Dashboard: Designed a admin dashboard for efficient management of critical modules such as user database, product inventory (add, update, delete), feedback handling, and payment verification."
         ],
+        githubLink: 'https://github.com/07faizanali/Laptophub.com',
         },
 
     {

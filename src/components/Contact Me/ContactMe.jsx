@@ -7,7 +7,7 @@ const ContactMe = () => {
   return (
 
     <section  className='contact-container'>
-      <h5 id='contact'>Contact Me</h5>
+      <h5 id='contact'>SEND ME A MESSAGE</h5>
 
       <div className='contact-content'>
         <div style={{ flex:1 }}>
@@ -17,7 +17,7 @@ const ContactMe = () => {
             />
             <ContactInfoCard
             iconUrl="./photos/icons8-github-64.png"
-           text="https://github.com/07faizanali"
+            text="https://github.com/07faizanali"
             />
         </div>
         <div style={{ flex:1 }}>

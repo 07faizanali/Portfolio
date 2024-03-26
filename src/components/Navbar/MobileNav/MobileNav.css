@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     display: none;
-    background-color: rgba(0,0,0,0.3);
+    background-color: ;
     position: fixed;
     left: 0;
     top: 0;
@@ -20,7 +20,7 @@
 .mobile-menu-container{
     width: 60vw;
     height: 100vh;
-    background: linear-gradient(90deg, #a993fe -70%, gold 100%);
+    background: #404446;
     padding: 2rem;
 }
 
@@ -34,7 +34,6 @@
 }
 
 .mobile-menu ul{
-
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -48,7 +47,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: linear-gradient(90deg, #a993fe -50%, #800020 100%);
+    background: linear-gradient(180deg, #c0bdce -90%, #6bb7d4 100%);
     padding: 0.6rem 2rem;
     border: none;
     border-radius: 0.2rem;

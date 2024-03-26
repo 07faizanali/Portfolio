@@ -12,6 +12,12 @@ const ProjectCard = ({details}) => {
             <li key={item}>{item}</li>
         ))}
     </ul>
+    {details.githubLink && (
+        <div>
+          <h6>Check Code Click On:  
+          <a href={details.githubLink} target="_blank" rel="noopener noreferrer"> SOURCE CODE</a></h6>
+        </div>
+      )}
 </div> 
   )
 }

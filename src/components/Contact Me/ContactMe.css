@@ -3,6 +3,29 @@
     margin: 4rem 0;
 }
 
+.contact-container::after,
+.contact-container::before{
+    content: " ";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: #6bb7d4;
+    position: absolute;
+    z-index: -1;
+    filter: blur(220px);
+}
+
+.contact-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+
+.contact-container::before{
+    background: #6bb7d4;
+    bottom: 0;
+    right: 0;
+}
+
 .contact-container h5{
     font-size: 1.5rem;
     font-weight: 600;

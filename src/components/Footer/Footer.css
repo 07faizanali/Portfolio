@@ -48,7 +48,7 @@
 }
 
   .Last-footer {
-    background: #80002052;
+    background: #3b4f55;
     text-align: center;
     padding: 1rem 0;
   }
@@ -84,16 +84,16 @@
 @media (max-width: 425px){
   
   .Quick-Links{
-    padding-left: 0;
+    padding-left: .5rem;
   }
 
   .Contact{
-    padding-left: 11rem;
+    padding-left: 10rem;
   }
 
   .social-media{
     margin-top: 11rem;
-    padding-left: 0;
+    padding-left: .5rem;
   }
 
   .Last-footer{

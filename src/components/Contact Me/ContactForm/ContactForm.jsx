@@ -33,7 +33,8 @@ const ContactForm = () => {
                 <input type='text' name='name' placeholder='Your Name' />
             </div>
             <input type='email' name='user-email' placeholder='email@gmail.com' />
-            <textarea type='text' name='message' placeholder='message' rows={5} />
+            <input type='text' name='subject' placeholder='subject' />
+            <textarea type='text' name='message' placeholder='message' rows={5}/>
             <button type='submit'>Send</button>
         </form>
     </div>
