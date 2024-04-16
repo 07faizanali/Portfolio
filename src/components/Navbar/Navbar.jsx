@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import MobileNav from './MobileNav/MobileNav';
-// import HomeIcon from '@mui/icons-material/Home';
+import HomeIcon from '@mui/icons-material/Home';
+
+
 
 const Navbar = () => {
 
@@ -19,11 +21,8 @@ const Navbar = () => {
         <img className='logo' src='./photos/resume.png' alt='' />
         <h2>Portfolio</h2>
         <ul>
-          
-          <li>
-            <a href='#aboutme' className='menu-item'>AboutMe</a>
-          </li>
-          <li>
+        <HomeIcon/><a href='/' className='menu-item'>Home</a>
+         <li>
             <a href='#skills' className='menu-item'>Skills</a>
           </li>
           <li>
@@ -32,9 +31,9 @@ const Navbar = () => {
           <li>
             <a href='#experience' className='menu-item'>Work Experience </a>
           </li>
-          {/* <li>
-            <a href='#education' className='menu-item'>Qualification</a>
-          </li> */}
+          <li>
+            <a href='#aboutme' className='menu-item'>AboutMe</a>
+          </li>
           <a href='#contact' className='contact-btn'>
             Hire Me
           </a>

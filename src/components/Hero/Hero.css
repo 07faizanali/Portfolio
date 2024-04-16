@@ -44,14 +44,40 @@
     color: #eec53f;
 }
 .hero-content p {
-    width: 700px; 
+    width: 700px;
+    height: auto; 
     padding: 10px;
     border: 2px solid #6bb7d4;
+    border-radius: 10px;
     font-size: 1rem;
     font-weight: 400;
     font-family: cursive;
     line-height: 2rem;
     text-align: justify;
+}
+
+.download-btn{
+    width: 200px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(180deg, #c0bdce -90%, #6bb7d4 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    outline: 1.5px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+.download-btn:hover{
+    color: white;
+    background: linear-gradient(180deg, #c0bdce 0%, #3f5f49 100%);
+    outline: 1.5px solid #668e9e;
 }
 
 .hero-img{
